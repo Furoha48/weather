@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天気予報</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="tenki.html">3日間の天気予報</a> | 
+    <a href="hourly_tenki.html">24時間の天気予報</a>
+  </nav>
+
+  <div id="time" class="led">----年--月--日 --:--:--</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th id="day0">----</th>
+        <th id="day1">----</th>
+        <th id="day2">----</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>天気</th>
+        <td id="weathercode0">--</td>
+        <td id="weathercode1">--</td>
+        <td id="weathercode2">--</td>
+      </tr>
+      <tr>
+        <th>最高気温</th>
+        <td id="temperature_max0">--°C</td>
+        <td id="temperature_max1">--°C</td>
+        <td id="temperature_max2">--°C</td>
+      </tr>
+      <tr>
+        <th>最低気温</th>
+        <td id="temperature_min0">--°C</td>
+        <td id="temperature_min1">--°C</td>
+        <td id="temperature_min2">--°C</td>
+      </tr>
+      <tr>
+        <th>降水量</th>
+        <td id="precipitation_sum0">--mm</td>
+        <td id="precipitation_sum1">--mm</td>
+        <td id="precipitation_sum2">--mm</td>
+      </tr>
+      <tr>
+        <th>ぜんたのコンディション</th>
+        <td id="condition0">--</td>
+        <td id="condition1">--</td>
+        <td id="condition2">--</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

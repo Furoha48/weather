@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  transition: background 1s;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+.led {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  color: #0f0;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-shadow: 0 0 10px #0f0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .led {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .led {
+    font-size: 1.2em;
+  }
+}
+
+.sunny {
+  background: linear-gradient(to bottom, #ffeb3b, #ff9800);
+}
+
+.cloudy {
+  background: linear-gradient(to bottom, #90a4ae, #78909c);
+}
+
+.rainy {
+  background: linear-gradient(to bottom, #4fc3f7, #0288d1);
+}
+
+.snowy {
+  background: linear-gradient(to bottom, #e1f5fe, #81d4fa);
+}
+
+.data {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.weather-icon {
+  font-size: 2em;
+}
